@@ -1,7 +1,7 @@
 ## M3 Academy - Desafio 05
 
-![preview](<./react-academy/src/imgs/desafio05(1).png>)
-![preview](<./react-academy/src/imgs/desafio05(2).png>)
+![preview](<./src/imgs/desafio05(1).png>)
+![preview](<./src/imgs/desafio05(2).png>)
 
 ## Descrição
 
