@@ -1,0 +1,50 @@
+.subTitle {
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 5px;
+  margin: 80px 0;
+}
+
+.main-sobre {
+  display: flex;
+}
+
+.container-sobre {
+  display: flex;
+  margin: auto;
+}
+
+.container-sobre__description h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 12px;
+  color: var(--color-gray-500);
+}
+
+@media screen and (max-width: 1024px) {
+  .container-sobre {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .subTitle {
+    margin-bottom: 40px;
+  }
+
+  .container-sobre__description h2 {
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .sobre-text {
+    margin: 12px 16px 80px 16px;
+    text-align: justify;
+    font-size: 12px;
+  }
+}

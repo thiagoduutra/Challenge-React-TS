@@ -1,0 +1,39 @@
+.subTitle {
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 5px;
+  margin: 80px 0;
+}
+
+.main-formaPagamento {
+  display: flex;
+}
+
+.container-pagamento {
+  display: flex;
+}
+
+.container-forma__description h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 12px;
+  color: var(--color-gray-500);
+}
+
+@media screen and (max-width: 1024px) {
+  .container-pagamento {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-forma__description h2 {
+    text-align: center;
+    margin-top: 30px;
+  }
+}

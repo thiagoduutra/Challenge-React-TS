@@ -1,0 +1,63 @@
+@media screen and (max-width: 1024px) {
+  footer .footer-desktop__columns {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    margin: 24px 16px 24px 16px;
+  }
+
+  footer .footer-desktop__links {
+    margin: 0;
+    width: 100%;
+  }
+
+  footer .footer-desktop__title {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  footer .footer-desktop__links:last-child {
+    display: flex;
+  }
+
+  footer .footer-infos__structure {
+    flex-direction: column;
+    align-items: initial;
+    margin-left: 16px;
+  }
+
+  footer .footer-infos__text {
+    order: 2;
+    width: auto;
+  }
+
+  footer .footer-infos__payment {
+    order: 1;
+  }
+
+  footer .footer-infos__contDev {
+    order: 3;
+    margin-bottom: 15px;
+  }
+
+  footer .container-redes {
+    bottom: 4%;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  footer .footer-infos__payment img {
+    width: 30px;
+    height: 16px;
+  }
+
+  footer .footer-infos__vtexCert img {
+    width: 45px;
+    height: 28px;
+    margin: 11px 0;
+  }
+}

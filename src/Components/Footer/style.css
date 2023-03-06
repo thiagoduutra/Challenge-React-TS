@@ -1,0 +1,145 @@
+.footer-desktop {
+  position: relative;
+}
+
+.footer-desktop__columns {
+  display: grid;
+  grid-template-columns: repeat(4, max-content);
+  gap: 14px;
+  justify-content: space-around;
+}
+
+.footer-desktop__links {
+  margin: 50px 0;
+}
+
+.footer-link__title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--color-gray-100);
+}
+
+.footer-link__item {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 400;
+  color: var(--color-gray-100);
+  list-style: none;
+  margin-top: 12px;
+}
+
+.footer-link__itemList {
+  margin: 0;
+}
+
+.footer-link__itemList img {
+  width: 35px;
+  height: 35px;
+}
+
+.social-medias {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.footer-links__link {
+  text-decoration: none;
+  color: var(--color-gray-100);
+}
+
+.footer-link__site {
+  text-decoration: none;
+  color: var(--color-gray-100);
+}
+
+.linkAtendimento {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.lastChild {
+  text-decoration: underline;
+}
+
+.footer-desktop__infos {
+  background-color: var(--color-black);
+}
+
+.footer-infos__structure {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer-infos__text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 11px;
+  color: var(--color-white);
+  width: 234px;
+  height: 24px;
+}
+
+.footer-infos__payment {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer-infos__payment img {
+  width: 36px;
+  height: 20px;
+}
+
+.footer-infos__divider {
+  height: 24px;
+  border: 1px solid var(--color-gray-200);
+}
+
+.footer-infos__vtexCert img {
+  width: 54px;
+  height: 34px;
+  margin: 15px 0;
+}
+
+.footer-infos__developed {
+  display: flex;
+}
+
+.footer-infos__developed a {
+  display: flex;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  line-height: 11px;
+  text-decoration: none;
+  color: var(--color-white);
+}
+
+.footer-infos__developed .vtexIcon {
+  width: 44px;
+  height: 16px;
+  margin: 0 13px;
+}
+
+.footer-infos__developed .m3Icon {
+  width: 28px;
+  height: 15px;
+  margin: 0 13px;
+}
+
+.container-redes {
+  text-align: end;
+  position: fixed;
+  bottom: 12%;
+  right: 0;
+  margin-right: 16px;
+}

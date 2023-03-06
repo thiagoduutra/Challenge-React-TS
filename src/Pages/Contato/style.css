@@ -1,0 +1,154 @@
+.container-form {
+  display: flex;
+  width: 100%;
+}
+
+.main-form {
+  display: flex;
+}
+
+.custom-form {
+  width: 100%;
+}
+
+.container-form__labels {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-form__labels label {
+  position: relative;
+  margin-left: 15px;
+  margin-bottom: 12px;
+}
+
+.form-invalid {
+  position: absolute;
+  right: 0;
+  margin-right: 120px;
+  color: var(--color-red);
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.container-form__labels input {
+  font-family: "Roboto", sans-serif;
+  line-height: 14px;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 15px 15px 15px 20px;
+  margin-bottom: 12px;
+  border-radius: 25px;
+  border: 1px solid var(--color-black-100);
+  outline: none;
+}
+
+.container-form__description {
+  width: 100%;
+  margin-right: 100px;
+}
+
+.container-form__description h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 12px;
+  color: var(--color-gray-500);
+  margin-top: 0;
+}
+
+.sobre-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  line-height: 15px;
+  color: var(--color-gray-400);
+  margin-right: 100px;
+  margin-bottom: 81px;
+}
+
+.container-checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-checkbox label {
+  margin-right: 4px;
+  color: var(--color-red);
+}
+
+.container-checkbox u {
+  color: var(--color-black);
+}
+
+.container-checkbox input {
+  height: 18px;
+  width: 18px;
+}
+
+.container-btn {
+  margin-bottom: 66px;
+  margin-top: 12px;
+}
+
+.btn-contato {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  line-height: 18px;
+  border: none;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  width: 100%;
+  border-radius: 25px;
+  text-align: center;
+  padding: 17px 0;
+  cursor: pointer;
+}
+
+.btn-msg {
+  font-family: "Roboto", sans-serif;
+  color: var(--color-green);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+@media screen and (max-width: 1024px) {
+  .container-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-form__description h2 {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .container-form__description {
+    margin-right: 0;
+  }
+
+  .sobre-text {
+    margin-right: 16px;
+  }
+
+  .container-btn,
+  .container-form__labels input {
+    margin: 12px 16px;
+  }
+
+  .container-btn {
+    margin-bottom: 80px;
+  }
+
+  .container-form__labels label {
+    margin-left: 30px;
+    margin-bottom: 0px;
+  }
+
+  .form-invalid {
+    margin-right: 40px;
+  }
+}

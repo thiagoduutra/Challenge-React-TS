@@ -1,0 +1,33 @@
+.BreadCrumb {
+  display: flex;
+  align-items: center;
+  margin: 29px 0px 80px 100px;
+  gap: 8px;
+}
+
+.BreadCrump-image1 {
+  display: block;
+  width: 16px;
+  height: 16px;
+}
+
+.BreadCrump-image2 {
+  display: block;
+  width: 8px;
+  height: 8px;
+}
+
+.BreadCrumb-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  color: var(--color-gray-200);
+}
+
+@media screen and (max-width: 1024px) {
+  .BreadCrumb {
+    margin-left: 16px;
+  }
+}
