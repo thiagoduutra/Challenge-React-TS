@@ -19,6 +19,7 @@ Primeiro contato com ReactJS e TypeScript, usando ferramentas de validações co
 ## Instalação e desenvolvimento
 
     - npm i
+    - cd react-academy
     - npm start
     
 ## 📞 Contato
